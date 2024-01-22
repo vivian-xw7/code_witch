@@ -1,0 +1,39 @@
+[21-Jan-2024 23:24:11 UTC] PHP Warning:  openssl_pkey_export(): Cannot get key from parameter 1 in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php on line 383
+[21-Jan-2024 23:24:11 UTC] PHP Fatal error:  Uncaught TypeError: openssl_pkey_get_details(): Argument #1 ($key) must be of type OpenSSLAsymmetricKey, bool given in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php:388
+Stack trace:
+#0 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php(388): openssl_pkey_get_details(false)
+#1 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\wp-oauth-main.php(345): wp_oauth_generate_server_keys()
+#2 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\wp-oauth-main.php(230): WO_Server->install()
+#3 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\class-wp-hook.php(324): WO_Server->setup(false)
+#4 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-admin\includes\plugin.php(693): do_action('activate_oauth2...', false)
+#7 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-admin\plugins.php(58): activate_plugin('oauth2-provider...', 'http://code-wit...', false)
+#8 {main}
+  thrown in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php on line 388
+[21-Jan-2024 23:24:16 UTC] PHP Warning:  Undefined variable $res in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php on line 388
+[21-Jan-2024 23:24:16 UTC] PHP Fatal error:  Uncaught TypeError: openssl_pkey_get_details(): Argument #1 ($key) must be of type OpenSSLAsymmetricKey, null given in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php:388
+Stack trace:
+#0 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php(388): openssl_pkey_get_details(NULL)
+#1 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\wp-oauth-main.php(345): wp_oauth_generate_server_keys()
+#2 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\wp-oauth-main.php(230): WO_Server->install()
+#3 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\class-wp-hook.php(324): WO_Server->setup(false)
+#4 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-admin\includes\plugin.php(693): do_action('activate_oauth2...', false)
+#7 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-admin\plugins.php(58): activate_plugin('oauth2-provider...', 'http://code-wit...', false)
+#8 {main}
+  thrown in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php on line 388
+[21-Jan-2024 23:24:27 UTC] PHP Warning:  Undefined variable $res in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php on line 388
+[21-Jan-2024 23:24:27 UTC] PHP Fatal error:  Uncaught TypeError: openssl_pkey_get_details(): Argument #1 ($key) must be of type OpenSSLAsymmetricKey, null given in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php:388
+Stack trace:
+#0 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php(388): openssl_pkey_get_details(NULL)
+#1 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\wp-oauth-main.php(345): wp_oauth_generate_server_keys()
+#2 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\wp-oauth-main.php(230): WO_Server->install()
+#3 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\class-wp-hook.php(324): WO_Server->setup(false)
+#4 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-admin\includes\plugin.php(693): do_action('activate_oauth2...', false)
+#7 C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-admin\plugins.php(58): activate_plugin('oauth2-provider...', 'http://code-wit...', false)
+#8 {main}
+  thrown in C:\Users\Vivian\Desktop\dev sites\Code Witch\wp_code-witch\app\public\wp-content\plugins\oauth2-provider\includes\functions.php on line 388

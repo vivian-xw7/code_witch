@@ -204,3 +204,17 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+// functions.php
+
+function theme_register_menus() {
+    register_nav_menus(
+        array(
+            'primary_menu' => esc_html__('Primary Menu', 'roots'),
+            'footer_menu'  => esc_html__('Footer Menu', 'roots'),
+        )
+    );
+}
+
+add_action('after_setup_theme', 'theme_register_menus');
+
